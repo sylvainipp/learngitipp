@@ -33,6 +33,8 @@ git push # Permet d'envoyer à la branche distante les changements effectués. S
 
 git stash # Permet de mettre de côté les derniers changements et revenir au dernier commit. On peut ensuite les réinjecter (y compris dans une autre branche) via git stash pop ou les supprimer définitivement avec git stash drop.
 
+- git commit --amend # Modifie le commit précédent. !!! Attention, l'ancienne version n'existera plus !!!
+
 ### Utiliser différentes branches
 
 git merge [nom_de_la_branche_a_merger] # ajoute les commits de la branche_a_merger dans la branche actuelle. Peut créer des conflits s'il y a des changements sur les mêmes lignes. Option --no-ff pour voir qu'il y a eu un merge.
