@@ -29,7 +29,7 @@ git gui # Ouvre une interface permettant de faire des commits de manière simpli
 
 - git commit # Ouvre une interface où on peut mettre le nom du commit. L'interface n'est pas en mode éditable, il faut commencer par taper "a" pour entrer dans ce mode, puis echap, ":x!" pour enregistrer et quitter. Le commit des changements en statut stage est ensuite effectué.
 
-git push # Permet d'envoyer à la branche distante les changements effectués. S'il y a un conflit entre la branche distante et locale, ce n'est pas possible (sauf avec --force, option à utiliser avec beaucoup de précaution !)
+git push # Permet d'envoyer à la branche distante les changements effectués. S'il y a un conflit entre la branche distante et locale, ce n'est pas possible (sauf avec --force, option à utiliser avec beaucoup de précaution !). La première fois, il faut rajouter --set-upstream origin [nom_branche] (indiqué dans une erreur si oublié)
 
 git stash # Permet de mettre de côté les derniers changements et revenir au dernier commit. On peut ensuite les réinjecter (y compris dans une autre branche) via git stash pop ou les supprimer définitivement avec git stash drop.
 
