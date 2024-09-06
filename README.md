@@ -44,3 +44,13 @@ git cherry-pick [commit_tag] # permet de prendre un commit dans une autre branch
 git rebase [nom_de_la_branche_ou_du_commit_ou_on_veut_faire_demarrer_la_branche_actuelle] # Fait démarrer la branche à un autre endroit (par exemple sur le nouveau master/main après merge d'une autre branche). !!! Attention : nécessite des push --force (car forcément conflit) qui peuvent détruire des données !!! A ne faire qu'une fois qu'on est sûr que personne ne fait de changement sur la branche (avant de merge typiquement). Option "-i" pour fusionner des commits ou en supprimer (!!! là aussi de manière difficilement réversible !!!)
 
 git push --force # Remplace la branche distante par la branche locale, même s'il y a des conflits. !!! Attention : risque de détruire des commits !!!
+
+## Liens
+
+### Une autre introduction à git
+
+https://rogerdudler.github.io/git-guide/index.fr.html
+
+### La page du gitlab ipp correspondante
+
+https://gitlab.com/ipp/ipp-handbook/-/blob/master/projets/organisation/git.md?ref_type=heads
