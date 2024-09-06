@@ -21,11 +21,11 @@ git pull # Attention, dans ce cas il peut y avoir des conflits !
 
 ### Ajouter ses propres modifications
 
-git checkout -b [nom_de_la_nouvelle_branche] # pour créer une nouvelle branch et s'y mettre
+git checkout -b [nom_de_la_nouvelle_branche] # pour créer une nouvelle branche, basée sur la branche actuelle, et s'y mettre.
 
 git gui # Ouvre une interface permettant de faire des commits de manière simplifiée. Autrement :
 
-- git add [nom du/des fichier(s) à ajouter, ou "." pour ajouter tout les changements] # Permet de stage les changements séletionnés
+- git add [nom du/des fichier(s) à ajouter, ou "." pour ajouter tout les changements] # Permet de stage les changements sélectionnés
 
 - git commit # Ouvre une interface où on peut mettre le nom du commit. L'interface n'est pas en mode éditable, il faut commencer par taper "a" pour entrer dans ce mode, puis echap, ":x!" pour enregistrer et quitter. Le commit des changements en statut stage est ensuite effectué.
 
